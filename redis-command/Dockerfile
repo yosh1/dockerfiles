@@ -1,4 +1,4 @@
-FROM node:11.9.0-alpine
+FROM node:16.11.1-alpine
 
 RUN set -x && \
     npm install -g redis-commander
